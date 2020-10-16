@@ -4,7 +4,7 @@ module.exports = {
   title: "helloluxin's Notebook",
   base: "/Notebook/",
   description: "前端学习笔记",
-  dest: "./dist",
+  // dest: "./dist",
   port: "8888",
   head: [
     [
