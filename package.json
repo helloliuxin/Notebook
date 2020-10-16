@@ -1,0 +1,26 @@
+{
+  "authors": {
+    "name": "helloliuxin",
+    "email": ""
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.7.0",
+    "@vuepress/plugin-back-to-top": "^1.7.0",
+    "@vuepress/plugin-nprogress": "^1.7.0",
+    "@vuepress/plugin-pwa": "^1.7.0",
+    "vuepress": "^1.7.0"
+  },
+  "dependencies": {
+    "valine": "^1.4.14"
+  }
+}
