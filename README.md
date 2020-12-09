@@ -32,3 +32,5 @@ npm run server
 - [ ] Algolia搜索
 - [ ] 在 GitHub 上编辑此页
 - [ ] SEO
+
+测试jinkins
