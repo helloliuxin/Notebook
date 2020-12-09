@@ -2,9 +2,9 @@ const sidebar = require("./config.sidebar");
 
 module.exports = {
   title: "helloluxin's Notebook",
-  base: "/Notebook/",
+  // base: "/Notebook/", //github部署时需要配置此选项
   description: "前端学习笔记",
-  // dest: "./dist",
+  // dest: "./web",
   port: "8888",
   head: [
     [
@@ -69,6 +69,7 @@ module.exports = {
         headerAnchorSelector: ".header-anchor"
       }
     ],
+    ["@vuepress/medium-zoom"], // 文中图片缩放
     ["@vuepress/back-to-top"], // 返回顶部
     ["@vuepress/nprogress"], // 加载进度条
     require("./common-plugin.js")
