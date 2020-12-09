@@ -1,4 +1,4 @@
 ## react
 ljsalkfjl
 
-取消了自动构建
+恢复了自动构建
