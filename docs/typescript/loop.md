@@ -13,5 +13,3 @@ lsjdfljsaflj
 测试流水线
 
 测试流水线自动触发构建部署
-
-GITHUB插件
