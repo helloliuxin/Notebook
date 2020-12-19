@@ -19,6 +19,9 @@ module.exports = {
       ]
     }
   ],
+  "/nginx/": [
+    ["nginx", "Nginx学习笔记"]
+  ],
   "/typescript/": [
     ["what", "node.js究竟是什么"],
     ["loop", "node事件循环"]

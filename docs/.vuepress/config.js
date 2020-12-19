@@ -37,6 +37,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
+      { text: "Nginx", link: "/nginx/" },
       { text: "typescript", link: "/typescript/" },
       { text: "前端", link: "/web/" },
       {
