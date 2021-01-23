@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //cookie
+
+      //设置cookie时间,时间格式为格林威治时间
+      var time = new Date("2021-01-21 16:15:01").toUTCString();
+      console.log(time); // test.html:14 Thu, 21 Jan 2021 08:07:01 GMT
+      //设置cookie
+      document.cookie = "searchHistory = Luyouqi;expires = " + time;
+      document.cookie = "searchdory = Luyodqi;expires = " + time;
+
+      //获取cookie
+      var cookie = document.cookie;
+      console.log(cookie); // searchHistory=Luyouqi; searchdory=Luyodqi
+      var cookieDate = cookie.split(/\;\s*/);
+      console.log(cookieDate); // ["searchdory=Luyodqi", "searchHistory=Luyouqi"]
+
+      //转化成对象
+      var cookies = {};
+      for (var i = 0; i < cookieDate.length; i++) {
+        var c = cookieDate[i].split("=");
+        cookies[c[0]] = c[1];
+      }
+      console.log(cookies); // {searchdory: "Luyodqi", searchHistory: "Luyouqi"}
+
+      //删除cookie,给expires设置时间,到时间cookie自动删除
+      var time = new Date("2021-01-21 00:00:01").toUTCString();
+      //设置cookie
+      document.cookie = "searchHistory = Luyouqi;expires = " + time;
+    </script>
+  </body>
+</html>

@@ -3,7 +3,7 @@ const sidebar = require("./config.sidebar");
 module.exports = {
   title: "helloluxin's Notebook",
   // base: "/Notebook/", //github部署时需要配置此选项
-  description: "前端学习笔记",
+  description: "📝好记性不如烂笔头",
   // dest: "./web",
   port: "8888",
   head: [
@@ -37,16 +37,21 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
+      { text: "📝日常记录", link: "/dailyRecord/" },
+      { text: "前端", link: "/frontend/" },
+      { 
+        text: "技术学习", 
+        items: [
+          { text: "nginx", link: "/nginx/" },
+          { text: "docker", link: "/docker/" },
+          { text: "正则表达式", link: "/RegExp/" }
+        ]
+      },
       { text: "Nginx", link: "/nginx/" },
       { text: "typescript", link: "/typescript/" },
-      { text: "前端", link: "/web/" },
       {
-        text: "框架",
-        items: [
-          { text: "vue", link: "/frame/vue/" },
-          { text: "react", link: "/frame/react/" },
-          { text: "jquery", link: "/frame/jquery/" }
-        ]
+        text: "🔗Github",
+        link: "https://github.com/helloliuxin/"
       }
     ],
     sidebar: sidebar,

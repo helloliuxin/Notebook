@@ -1,5 +1,17 @@
 module.exports = {
-  "/web/": [
+  "/dailyRecord/": [
+    {
+      title: "日常记录",
+      collapsable: true,
+      children: ["", "2020", "review"]
+    },
+    {
+      title: "TechnologyDevelopment",
+      collapsable: false,
+      children: ["TechnologyDevelopment"]
+    }
+  ],
+  "/frontend/": [
     ["", "目录"],
     {
       title: "css",
@@ -15,6 +27,7 @@ module.exports = {
       sidebarDepth: 0,
       children: [
         ["javascript/", "目录"],
+        ["javascript/clone", "手写深拷贝与浅拷贝"],
         ["javascript/scoped", "[作用域]作用域于作用域链"]
       ]
     }
@@ -23,16 +36,14 @@ module.exports = {
     ["nginx", "Nginx学习笔记"]
   ],
   "/typescript/": [
-    ["what", "node.js究竟是什么"],
-    ["loop", "node事件循环"]
+    ["basics", "基础篇"],
+    ["engineering", "工程篇"],
+    ["actual", "实战篇"]
   ],
-  "/frame/vue/": [
-    ["watch", "监听器"]
+  "/docker/": [
+    ["", "docker学习笔记"]
   ],
-  "/frame/react/": [
-    ["", "react"]
-  ],
-  "/frame/jquery/": [
-    ["", "jquery"]
+  "/RegExp/": [
+    ["", "正则表达式"]
   ]
 };
