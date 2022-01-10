@@ -12,5 +12,7 @@
 
 jenkins测试
 
+测试jenkins是否自动触发构建
+
 ## docker语法
 .........
