@@ -1,7 +1,7 @@
 const sidebar = require("./config.sidebar");
 
 module.exports = {
-  title: "两天的学习笔记",
+  title: "菠萝小泡的生活记录",
   // base: "/Notebook/", //github部署时需要配置此选项
   description: "📝好记性不如烂笔头",
   // dest: "./web",

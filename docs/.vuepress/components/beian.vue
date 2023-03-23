@@ -1,7 +1,7 @@
 <template>
   <div class="beian">
     <p>
-      <a href="/">helloliuxin's Notebook</a>
+      <a href="/">菠萝小泡的生活记录</a>
     </p>
     <p>
       <a href="https://beian.miit.gov.cn/" target="_blank"
